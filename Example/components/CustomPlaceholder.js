@@ -1,6 +1,7 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 import { Text } from 'react-native';
 import Placeholder from 'rn-placeholder';
+import PropTypes from 'prop-types';
 
 const customPlaceholder = (props) => {
   const style = { backgroundColor: props.bgColor };
